@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto 0 auto;
+    font-family: "Playwrite VN","Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  }
+
+.nonscroll {
+    overflow: hidden;
+}
+
+.font-color {
+    color: #007a88;
+}   
+
+.center {
+    text-align: center;
+}
+
+/*--------------------------------
+ヘッダー
+---------------------------------*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEFAED;
+  }
+  
+#nav-pc {
+    font-size: 18px;
+}
+
+#nav-pc ul {
+    display: flex;
+    padding-left: 0px;
+    margin-right: 50px;
+}
+
+#nav-pc li {
+    list-style: none;
+    margin: 20px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#header-logo a {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-bottom: 0;
+    color: #007a88;
+}
+
+#nav-pc a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #007a88;
+}
+
+#nav-pc a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------
+main
+---------------------------------*/
+.mainvisual {
+    background-image: url("images/ayaka1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+/*--------------------------------
+about
+---------------------------------*/
+.word p{
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+.photoattention {
+        text-decoration: underline;
+        text-decoration-color:#FF0000;
+}
+
+/*--------------------------------
+contact
+---------------------------------*/
+.class-logo {
+    color: #007a88;
+    ruby-position: under;
+}
+
+.class-logo rb {
+    font-size: 20px;
+}
+
+.contact-heading {
+    font-family: "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
